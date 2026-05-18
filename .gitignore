@@ -1,0 +1,47 @@
+# Xcode + release artifacts
+build/
+dist/
+DerivedData/
+.DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+xcuserdata/
+
+# xcodegen output (re-generated from project.yml)
+iRemote.xcodeproj/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# macOS metadata
+.DS_Store
+._*
+
+# Compiled helper binaries (built into /tmp at runtime)
+/tmp/extract-remote-opus
+/tmp/decode-remote-opus-v3
+
+# Logs and packet captures (debug artifacts)
+*.wav
+*.pcm
+*.bin
+*.pcapng
+*.pklg
+captures/
+
+# Apple configuration profiles
+# (See README — Apple's Bluetooth Logging Profile is distributed
+# by Apple and must not be redistributed in this repo.)
+*.mobileconfig
+
+# Local helper-script downloads from Apple Developer
+~$*
+
+# Editor noise
+.idea/
+.vscode/
+*.swp
+*.swo
